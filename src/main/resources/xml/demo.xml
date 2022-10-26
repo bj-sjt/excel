@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+    <styles>
+        <style id="h1"
+               font.size="12"
+               font.fontName="黑体"
+               font.bold="true"
+               font.color="red"
+               hAlignment="center"
+               vAlignment="center"
+               foregroundColor="blue"
+               border="true"
+               wrapText="true"/>
+        <style id="h2"
+               font.size="13"
+               font.fontName="宋体"
+               font.bold="true"
+               font.color="red"
+               hAlignment="center"
+               foregroundColor="green"
+               vAlignment="center"
+               border="true"
+               wrapText="true"/>
+    </styles>
+    <table name="表1">
+        <tr>
+            <td width="5.25" styleId="h1" colspan="4">$!{name1}</td>
+        </tr>
+        <tr>
+            <td width="7" styleId="h2" rowspan="4">$!{name2}</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td width="5.25" styleId="h1" colspan="4">$!{name3}</td>
+        </tr>
+        <tr>
+            <td width="20" styleId="h2" rowspan="4">$!{name4}</td>
+        </tr>
+    </table>
+</tables>
